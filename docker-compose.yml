@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  myapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./Dataset:/app/Dataset
+      - ./tests:/app/tests
+      - ./utils:/app/utils
+      - ./MyException:/app/MyException
+      - ./SQLQuery:/app/SQLQuery
+      - ./configs:/app/configs
+      - ./AnalysisOutputResults:/app/AnalysisOutputResults
+      - ./model:/app/model
+      - ./dataloader:/app/dataloader
+    networks:
+      - mynetwork
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: "Hima@123"
+      MYSQL_DATABASE: AIQ_SALES_DB
+      MYSQL_USER: root
+      MYSQL_PASSWORD: "Hima@123"
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
