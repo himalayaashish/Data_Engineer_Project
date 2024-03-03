@@ -58,6 +58,8 @@ bash
 Copy code
 ``` bash
 git clone https://github.com/himalayaashish/Data_Engineer_Project.git
+```
+```bash
 cd Data_Engineer_Project
 ```
 ```python
@@ -94,3 +96,11 @@ pytest (for testing)
 ```
 ### Contributing
 ##### Feel free to contribute by opening issues or submitting pull requests.
+
+### Area of improvement
+
+1- Any third party software / tool like Tableau or power BI is good for data visualization. 
+
+2- Data analysis can be done using plain sql query. We can create stored procedures and analysis.py can be further enhanced just to call these stored procedures when ever is required. 
+
+3- Data drift has been mostly handled with SCHEMA checks but needs further modification to validate the range of each fields.
