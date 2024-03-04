@@ -29,7 +29,8 @@
 ### Overview
 This data pipeline processes sales data, user data, and weather data to generate insights and visualizations. It is designed to be run using the main.py script, which orchestrates the entire pipeline.
 
-#### Create a table "sales" in mysql and load "AIQ - Data Engineer Assignment - Sales data.csv" using Import wizard.
+#### Note 1 - Create a table "sales" in mysql and load "AIQ - Data Engineer Assignment - Sales data.csv" using Import wizard.
+#### Note 2 - Edit config.py with your credientials and information.
 
 #### Components
 ##### 1. main.py
