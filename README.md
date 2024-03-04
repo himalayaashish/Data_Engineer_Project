@@ -1,4 +1,29 @@
 # Data_Engineer_Project
+# Table of Contents
+- [Data_Engineer_Project](#data_engineer_project)
+  - [Overview](#overview)
+  - [Components](#components)
+    - [1. main.py](#1-mainpy)
+    - [2. model](#2-model)
+      - [a. mymodel.py](#a-mymodelpy)
+      - [b. analysis.py](#b-analysispy)
+    - [3. dataloader](#3-dataloader)
+    - [4. configs](#4-configs)
+    - [5. SQLQuery](#5-sqlquery)
+    - [6. MyException](#6-myexception)
+    - [7. utils](#7-utils)
+    - [8. tests](#8-tests)
+    - [9. AnalysisOutputResults](#9-analysisoutputresults)
+  - [Usage Instructions](#usage-instructions)
+    - [Install Dependencies](#install-dependencies)
+    - [Database Configuration](#database-configuration)
+    - [API Configuration](#api-configuration)
+    - [Run the Data Pipeline](#run-the-data-pipeline)
+    - [View Results](#view-results)
+    - [Unit Testing](#unit-testing)
+  - [Contributing](#contributing)
+  - [Area of improvement](#area-of-improvement)
+
 ## Data Pipeline for AIQ Data Engineer Assignment
 ### Overview
 This data pipeline processes sales data, user data, and weather data to generate insights and visualizations. It is designed to be run using the main.py script, which orchestrates the entire pipeline.
