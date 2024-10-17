@@ -1,5 +1,3 @@
-![alt text]()
-
 ## Hello World! <img alt="wave" src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
 <div align="center"> 🚀 Welcome to my git repo :BreadcrumbsData_Engineer_Project:</div>
